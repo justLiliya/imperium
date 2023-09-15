@@ -3,10 +3,7 @@ import java.util.List;
 
 public class Status {
     private static Status status;
-    private Region region;
     static String statusName = "Russia";
-    private District district;
-    private City city;
     static List<Structures> allStructures = new ArrayList<Structures>();
 
 
