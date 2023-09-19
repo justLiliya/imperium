@@ -1,8 +1,6 @@
 package ru.khlebnikova.imperium.entity;
 
-import ru.khlebnikova.imperium.util.Structures;
-
-public class Region extends Structures {
+public class Region {
 
     String regionName;
     int regionSize;
