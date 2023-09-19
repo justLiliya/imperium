@@ -1,3 +1,10 @@
+package ru.khlebnikova.imperium.main;
+
+import ru.khlebnikova.imperium.entity.City;
+import ru.khlebnikova.imperium.entity.District;
+import ru.khlebnikova.imperium.entity.Region;
+import ru.khlebnikova.imperium.entity.Status;
+
 public class _Main {
 
     public static void main(String[] args) {

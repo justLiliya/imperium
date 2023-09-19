@@ -1,3 +1,7 @@
+package ru.khlebnikova.imperium.entity;
+
+import ru.khlebnikova.imperium.util.Structures;
+
 import java.util.ArrayList;
 import java.util.List;
 
