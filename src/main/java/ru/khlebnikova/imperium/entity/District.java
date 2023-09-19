@@ -1,8 +1,6 @@
 package ru.khlebnikova.imperium.entity;
 
-import ru.khlebnikova.imperium.util.Structures;
-
-public class District extends Structures {
+public class District {
 
     String districtName;
     int districtSize;

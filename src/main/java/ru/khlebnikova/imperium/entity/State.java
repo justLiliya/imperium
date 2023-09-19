@@ -1,15 +1,14 @@
 package ru.khlebnikova.imperium.entity;
 
-import ru.khlebnikova.imperium.util.Structures;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class State {
     private static State status;
     static String statusName = "Russia";
-    static List<Region> allRegion = new ArrayList<Region>();
-    static List<Structures> allStructures = new ArrayList<Structures>();
+    static List<Region> allRegions = new ArrayList<Region>();
+    static List<District> allDistricts = new ArrayList<District>();
+    static List<City> allSCities = new ArrayList<City>();
 
 
     public static State getState(){
@@ -23,29 +22,34 @@ public class State {
 
     }
 
-    public static void addStructures(Structures st){
-        allStructures.add(st);
+    public static void addCities(City s){
+        allSCities.add(s);
     }
 
     public static void addRegion(Region r){
-        allRegion.add(r);
+        allRegions.add(r);
     }
 
     public static String getRegion(int count){
-       return allRegion.get(count).getName();
+       return allRegions.get(count).getName();
+    }
+
+    public static void addDistrict(District d){
+        allDistricts.add(d);
+    }
+
+    public static String getDistrict(int count){
+        return allDistricts.get(count).getName();
     }
 
     public static String getName(){
         return statusName;
     }
 
-    public static Structures getStructure(int count){
-        return allStructures.get(count);
+    public static String getSCities(int count){
+        return allSCities.get(count).getName();
     }
 
-    public static String getStructureName(int count){
-        return allStructures.get(count).getName();
-    }
 
 
 }
