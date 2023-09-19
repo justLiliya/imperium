@@ -13,8 +13,8 @@ public class _Main {
          System.out.println(Status.getStructureName(0));
          System.out.println("Мой " + Status.getStructure(1).toString().split("@")[0]+ ":");
          System.out.println(Status.getStructureName(1));
-        System.out.println("Мой " + Status.getStructure(2).toString().split("@")[0]+ ":");
-        System.out.println(Status.getStructureName(2));
+         System.out.println("Мой " + Status.getStructure(2).toString().split("@")[0]+ ":");
+         System.out.println(Status.getStructureName(2));
     }
 
 }
