@@ -5,20 +5,20 @@ import ru.khlebnikova.imperium.util.Structures;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Status {
-    private static Status status;
+public class State {
+    private static State status;
     static String statusName = "Russia";
     static List<Structures> allStructures = new ArrayList<Structures>();
 
 
-    public static Status getStatus(){
+    public static State getState(){
         if (status == null){
-            status = new Status();
+            status = new State();
         }
         return status;
     }
 
-    private Status(){
+    private State(){
 
     }
 
